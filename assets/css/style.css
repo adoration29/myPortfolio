@@ -1,0 +1,64 @@
+.header-section{
+    background-color: turquoise;
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.name{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+}
+
+.position{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: size 80px;
+
+}
+.skills-section{
+    background-color:orange;
+    padding-right:50px;
+    padding-left: 80px;
+    padding-bottom: 20px;
+}
+.img-thumbnail{
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    float: right;
+    display: flex;
+}
+
+.projects-section{
+    background: turquoise;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.footer-section{
+    background-color: orange;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+.link{
+    color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: all .5s ease-in-out;
+}
+.link:hover{
+    transform: scale(1.6);
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 800px) {
+   .header-section, .skills-section, .projects-section .footer-section,{
+width: 50% /*the width is 100%,when the viewport is 800px or smaller*/
+   } 
+}
+
+
+
